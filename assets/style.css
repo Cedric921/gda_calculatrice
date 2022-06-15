@@ -18,7 +18,7 @@ body {
 	align-content: center;
 	min-height: 100vh;
 	grid-template-columns: repeat(4, 100px);
-	grid-template-rows: minmax(120px, auto) repeat(4, 100px);
+	grid-template-rows: minmax(120px, auto) repeat(5, 100px);
 }
 
 .calculator-grid > button {
@@ -26,7 +26,7 @@ body {
 	font-size: 2rem;
 	border: 1px solid white;
 	outline: none;
-	background-color: rgba(255, 255, 255, 0.7);
+	background-color: rgba(219, 212, 212, 0.7);
 }
 .calculator-grid > button:hover {
 	background-color: #ffffffe6;
@@ -38,7 +38,7 @@ body {
 
 .output {
 	grid-column: 1 / -1;
-	background-color: #000000bf;
+	background-color: #554141bf;
 	display: flex;
 	align-items: flex-end;
 	justify-content: space-around;
